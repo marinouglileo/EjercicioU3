@@ -1,0 +1,41 @@
+var nombre;
+nombre = prompt("ingrese su nombre");
+alert("bienvenido "+nombre);
+
+var curso;
+
+//conjuncion and &
+//Disyuncion OR |(pipe)
+//negacion NOT
+while(curso != 1 && curso != 2){
+
+curso = prompt("los cursos a los que se puede inscribir son: 1. Programacion 2. Matematica")
+
+}
+
+var horario;
+if (curso = 1){
+horario = "lunesa a las 1300 o sabados a las 0900"
+}else{
+  horario = "martes a las 1600 o domingo a las 1300"
+}
+
+var horario_seleccionado
+horario_seleccionado = prompt(horario)
+
+alert("se esta procesando la inscripcion")
+
+------------------------------------
+
+/calcular un factorial
+ var numero;
+ numero = prompt("ingrese el numero al cual quiere calcular el factorial")
+
+ var resultado = 1;
+ //var++ significa suma 1 al valor que ya tiene
+ for (var contador = 1 ; contador <= numero ; contador++){
+  resultado = resultado * contador
+ }
+ alert("el resultado del factorial es "+resultado)
+ --------------------------------------
+
